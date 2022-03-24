@@ -17,10 +17,10 @@ export default function Navigation() {
         <img src="https://cdn.iconscout.com/icon/free/png-256/right-arrow-1438234-1216195.png" alt=""  className='img'/>
       </div>
       <nav className='navbar'>
-        <Link to="/" className='el'>Home</Link>
-        <Link to="/projects" className='el'>Projects</Link>
-        <Link to="/contact" className='el'>Contact</Link>
-        <Link to="/about" className='el'>About</Link>
+        <Link to="/portfolio" className='el'>Home</Link>
+        <Link to="/portfolio/projects" className='el'>Projects</Link>
+        <Link to="/portfolio/contact" className='el'>Contact</Link>
+        <Link to="/portfolio/about" className='el'>About</Link>
     </nav>
     </div>  
     

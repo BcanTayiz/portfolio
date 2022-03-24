@@ -27,13 +27,13 @@ export default function App() {
         <Navigation/>
 
         <Routes>
-            <Route exact path="/" element={<Home />}/>
-            <Route exact path="/about" element={<About />}/>
-            <Route exact path="/projects" element={<Projects />}/>
-            <Route exact path="/contact" element={<Contact />}/>
-            <Route exact path="/project1" element={<Project1 />}/>
-            <Route exact path="/project2" element={<Project2 />}/>
-            <Route exact path="/project3" element={<Project3 />}/>
+            <Route exact path="/portfolio/" element={<Home />}/>
+            <Route exact path="/portfolio/about" element={<About />}/>
+            <Route exact path="/portfolio/projects" element={<Projects />}/>
+            <Route exact path="/portfolio/contact" element={<Contact />}/>
+            <Route exact path="/portfolio/project1" element={<Project1 />}/>
+            <Route exact path="/portfolio/project2" element={<Project2 />}/>
+            <Route exact path="/portfolio/project3" element={<Project3 />}/>
         </Routes>
       </div>
   </Router>
