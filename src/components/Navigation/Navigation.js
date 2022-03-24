@@ -8,7 +8,7 @@ export default function Navigation() {
   return (
     <div className="navbar-container">
       <h1>
-        <Link to='/' className='el'>Barış Can Tayiz's Personal Website</Link>
+        <Link to='/portfolio' className='el'>Barış Can Tayiz's Personal Website</Link>
       </h1>
       <div className='navbar-arrows'>
         <img src="https://cdn.iconscout.com/icon/free/png-256/right-arrow-1438234-1216195.png" alt="" className='img' />
