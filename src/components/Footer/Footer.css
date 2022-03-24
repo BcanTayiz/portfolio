@@ -1,0 +1,71 @@
+
+.footer_Container{
+    text-align: center;
+    background-color: #282c34;
+    color:azure;
+    width: 100vw;
+    height: 5vh;
+    margin: auto;
+    margin-top: 70vh;
+}
+
+.footer_all{
+    background-color: #282c34;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 1px 5px 5px coral;
+}
+
+.navbar_Section{
+    background-color: rgb(48, 54, 59);
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 100%;
+    
+}
+
+.navbar_Section .el:hover {
+    background: rgb(255, 245, 154);
+  }
+  
+  .navbar_Section .el:active {
+    background-color: aliceblue;
+  }
+  
+  .navbar_Section .el:focus {
+    background-color: aliceblue;
+  }
+  
+  .navbar_Section .el {
+    background-color: rgb(144, 163, 180);
+    border-radius: 1em;
+    width: 10vw;
+    height: 3vw;
+    text-align: center;
+    align-items: center;
+    margin: 10px 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+
+
+.other_Navbar{
+    width: 300px;
+    background-color: rgb(86, 103, 119);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.block{
+    width: 2vw;
+    background-color: azure;
+}
+
+
+.origin{
+    background-color: #282c34;
+}

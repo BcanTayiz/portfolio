@@ -1,0 +1,53 @@
+.container{
+    width: 100%;
+    margin:auto;
+    text-align: center;
+    margin-top: 10rem;
+
+}
+
+
+.main{
+    text-align: center;
+    margin: auto;
+    height: 50vh;
+    width: 90%;
+    background-color: rgb(167, 168, 107);
+    margin-top: 10rem;
+    border-radius: 2rem;
+}
+
+.section_Parts{
+    display: flex;
+    flex-direction: row;
+}
+
+.h2_title{
+    background-color: rgb(115, 122, 122);
+    width: 80%;
+    margin: 1rem auto;
+    border:2px solid azure;
+    border-radius: 3rem;
+    box-shadow: 2px 2px 2px rgb(124, 199, 124);
+}
+
+.list_ul{
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    text-align: left;
+}
+
+.profil_photo{
+    width: 18rem;
+    height: 18rem;
+    top:21rem;
+    right:23rem;
+    border-radius: 3rem;
+}
+
+.text:hover{
+    color:azure;
+    text-shadow: 2px 2px 2px black;
+    transition: color 0.5s;
+  }

@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  height: 60vh;
+  margin: 10rem 10rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form{
+  background-color: gainsboro;
+  width: 60%;
+  margin: 10rem auto;
+  padding: 5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.form_div{
+  background-color: rgb(145, 136, 148);
+  display:flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 60%;
+  margin: 1rem auto;
+  padding: 1em;
+}
+
+.button{
+  background-color: azure;
+  border:2px solid black;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.button:active{
+  color:rebeccapurple;
+  background-color: rgb(67, 78, 100);
+}

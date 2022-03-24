@@ -1,0 +1,86 @@
+.navbar-container {
+  display: flex;
+  background-color: rgb(9, 29, 48);
+  width: 100vw;
+  height: 15vh;
+  box-shadow: 0px 2px 8px burlywood;
+}
+
+.navbar {
+  background-color: rgb(187, 176, 78);
+  margin-left: 5vw;
+  width: 35vw;
+  border: 2px solid rgb(177, 157, 157);
+  border-radius: 2em;
+}
+
+.navbar:hover {
+  transform: scale(1.01);
+  transition: transform 1.5s;
+}
+
+.navbar .el:hover {
+  background: rgb(34, 45, 61);
+}
+
+.navbar .el:active {
+  background-color: aliceblue;
+}
+
+.navbar .el:focus {
+  background-color: aliceblue;
+}
+
+.navbar .el {
+  background-color: rgb(144, 163, 180);
+  border-radius: 3em;
+  width: 5vw;
+  height: 2vw;
+  text-align: center;
+  align-items: center;
+  margin: auto 20px;
+  padding: auto 20px;
+  text-decoration: none;
+}
+
+.el{
+  text-decoration: none;
+  color:rgb(214, 188, 118);
+}
+
+
+h1 {
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 20em;
+  color: rgb(82, 66, 82);
+  margin-left: 3em;
+}
+
+h1:hover {
+  color: white;
+  text-shadow: 0px 0px 20px rgb(218, 163, 91);
+  transition: color 1.2s, text-shadow 0.5s;
+}
+
+.navbar-arrows {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1em;
+  width: 30em;
+}
+
+.navbar-arrows .img {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 253, 253);
+  margin: auto;
+  margin-left: 2em;
+  border-radius: 3em;
+}
+
+.navbar-arrows .img:hover {
+  box-shadow: 0px 5px 5px orange;
+}
