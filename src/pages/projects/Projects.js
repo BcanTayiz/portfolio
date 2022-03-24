@@ -22,7 +22,7 @@ export default function Projects() {
             <Card.Text>
               Project 1, will be built soon
             </Card.Text>
-            <Link to='/project1'>Go Project 1</Link>
+            <Link to='/portfolio/project1'>Go Project 1</Link>
           </Card.Body>
         </Card>
 
@@ -32,7 +32,7 @@ export default function Projects() {
             <Card.Text>
               Project 2, will be built soon
             </Card.Text>
-            <Link to='/project2'>Go Project 2</Link>
+            <Link to='/portfolio/project2'>Go Project 2</Link>
           </Card.Body>
         </Card>
 
@@ -42,7 +42,7 @@ export default function Projects() {
             <Card.Text>
               Project 3, will be built soon
             </Card.Text>
-            <Link to='/project3'>Go Project 3</Link>
+            <Link to='/portfolio/project3'>Go Project 3</Link>
           </Card.Body>
         </Card>
 
