@@ -3,6 +3,8 @@ import axios from "axios";
 
 import './Project1.css'
 
+import { BsFillArrowRightCircleFill} from "react-icons/bs";
+
 
 function shuffle(array) {
   let currentIndex = array.length,  randomIndex;
@@ -61,7 +63,7 @@ export default function Project1() {
           setTimeout(() => {
             setWordData([])
             setWhiteList([])  
-          }, 3000);
+          }, 5000);
           
 
           
@@ -141,7 +143,7 @@ export default function Project1() {
 
     <main className='container'>
       
-      <h2>Project will be soon here</h2>
+      <h2>Word Meaning matching game</h2>
       <p>Try to check word and meanings and get 3 for equals and -5 for not matching</p>
     <div className='sectionContainer'>
       <section>
@@ -164,7 +166,7 @@ export default function Project1() {
         <button onClick={getSelectedItems}>Check</button>
         <br/>
         <p></p>
-        <p>{whiteList.length >=8 ?  score :''}</p>
+        <p>{whiteList.length >=8 ? 'Score: ' + score :''}</p>
       </section>
       
       </div> 
@@ -172,20 +174,21 @@ export default function Project1() {
       <div className='trialOnes'>
       {whiteList.map((el,index) => (
           <div key={el}> 
-            <p>{index % 2 == 0 ? 'tried word '+`${el}` : 'tried meaning ' + `${el}` }</p>
+            <p className='triedElement'>{index % 2 == 0 ? 'tried word ==> '+`${el}` : 'tried meaning ==> ' + `${el}` }</p>
           </div>
         )) }
 
         <h2>{message && 'True Meanings' }</h2>
         {message  && wordData.map(el => (
-          <div key={el}> 
-            <p>{el['word']}</p>  
-            <p>{el['meaning']}</p>
+          <div key={el} className='wordMeaningBlock'> 
+            <p className='wordResult'>{el['word']}</p>  
+            <BsFillArrowRightCircleFill/>
+            <p className='meaningResult'>{el['meaning']}</p>
           </div>
         ))}
       </div>
 
-
     </main>
+    
   )
 }

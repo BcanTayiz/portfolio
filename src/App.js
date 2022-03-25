@@ -19,6 +19,8 @@ import Project1 from './pages/projects/project1/Project1';
 import Project2 from './pages/projects/project2/Project2';
 import Project3 from './pages/projects/project3/Project3';
 
+import Footer from './components/Footer/Footer'
+
 
 export default function App() {
   return (

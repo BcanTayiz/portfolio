@@ -33,3 +33,10 @@
   border-radius: 2em;
 }
 
+.imageElement{
+  width: 90%;
+  height: 60%;
+  margin:auto;
+  margin-top: 20px;
+}
+

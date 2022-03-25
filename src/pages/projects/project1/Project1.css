@@ -45,3 +45,27 @@
     margin-top: 2em;
     border-radius: 2em;
 }
+
+.triedElement{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wordMeaningBlock{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.wordResult{
+    background-color: azure;
+    padding: 10px;
+}
+
+.meaningResult{
+    background-color: azure;
+    padding:10px;
+}

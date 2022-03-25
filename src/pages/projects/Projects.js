@@ -3,6 +3,8 @@ import React from 'react'
 import Footer from '../../components/Footer/Footer'
 import Card from 'react-bootstrap/Card';
 
+import project1Image from '../../assets/images/project1.png'
+
 import {Link} from 'react-router-dom'
 
 import './Projects.css'
@@ -17,12 +19,13 @@ export default function Projects() {
 
         <section className='projects'>
         <Card className='card_container'>
+        <Card.Img variant="top" src={project1Image} className='imageElement'/>
           <Card.Body>
             <Card.Title>Project 1</Card.Title>
             <Card.Text>
-              Project 1, will be built soon
+              Word Meaning Mathing game
             </Card.Text>
-            <Link to='/portfolio/project1'>Go Project 1</Link>
+            <Link to='/portfolio/project1'>Go to Project 1</Link>
           </Card.Body>
         </Card>
 
@@ -32,7 +35,7 @@ export default function Projects() {
             <Card.Text>
               Project 2, will be built soon
             </Card.Text>
-            <Link to='/portfolio/project2'>Go Project 2</Link>
+            <Link to='/portfolio/project2'>Go to Project 2</Link>
           </Card.Body>
         </Card>
 
@@ -42,7 +45,7 @@ export default function Projects() {
             <Card.Text>
               Project 3, will be built soon
             </Card.Text>
-            <Link to='/portfolio/project3'>Go Project 3</Link>
+            <Link to='/portfolio/project3'>Go to Project 3</Link>
           </Card.Body>
         </Card>
 

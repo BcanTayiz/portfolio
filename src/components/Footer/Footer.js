@@ -13,7 +13,7 @@ export default function Footer() {
         <section className='footer_all'>
         <nav className='navbar_Section'>
           <Link to="/portfolio" className='el'>Home</Link>
-          <Link to="7portfolio/projects" className='el'>Projects</Link>
+          <Link to="/portfolio/projects" className='el'>Projects</Link>
           <Link to="/portfolio/contact" className='el'>Contact</Link>
           <Link to="/portfolio/about" className='el'>About</Link>
         </nav>
