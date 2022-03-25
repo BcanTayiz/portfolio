@@ -24,7 +24,7 @@ export default function Projects() {
           <Card.Body>
             <Card.Title>Project 1</Card.Title>
             <Card.Text>
-              Word Meaning Mathing game
+              Word Meaning Matching game
             </Card.Text>
             <Link to='/portfolio/project1'>Go to Project 1</Link>
           </Card.Body>
@@ -35,7 +35,7 @@ export default function Projects() {
           <Card.Body>
             <Card.Title>Project 2</Card.Title>
             <Card.Text>
-              Project 2, will be built soon
+              Alphabet Wars Game
             </Card.Text>
             <Link to='/portfolio/project2'>Go to Project 2</Link>
           </Card.Body>
