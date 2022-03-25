@@ -37,6 +37,8 @@ export default function App() {
             <Route  path="/portfolio/project2" element={<Project2 />}/>
             <Route  path="/portfolio/project3" element={<Project3 />}/>
         </Routes>
+
+        <Footer/>
       </div>
   </Router>
   );
