@@ -1,12 +1,11 @@
 
 .footer_Container{
-    text-align: center;
     background-color: #282c34;
     color:azure;
-    width: 100vw;
     height: 5vh;
-    margin: auto;
-    margin-top: 70vh;
+    margin-top: 50vh;
+    text-align: center;
+    align-items: center;
 }
 
 .footer_all{

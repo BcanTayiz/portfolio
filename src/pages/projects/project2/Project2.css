@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #F3F3F3;
+
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 20rem;
+}
+
+
+.flexbox{
+    width: 30vw;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.selectBox{
+    margin: 20px;
+}
+
+.scores{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.scores div{
+    margin: 15px;
+}
+
+.buttonSection button{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.buttonSection button:active{
+    background-color: red;
+    transition: background-color 0.5s;
+}
+
+
+.computerHand{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin:auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30em;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.computerHandPart{
+    background-color: #F3F3F3;
+    padding: 1em;
+}
+

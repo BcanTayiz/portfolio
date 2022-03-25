@@ -4,6 +4,7 @@ import Footer from '../../components/Footer/Footer'
 import Card from 'react-bootstrap/Card';
 
 import project1Image from '../../assets/images/project1.png'
+import project2Image from '../../assets/images/project2.png'
 
 import {Link} from 'react-router-dom'
 
@@ -11,7 +12,7 @@ import './Projects.css'
 
 export default function Projects() {
   return (
-    <>
+    <div className='mainContainer'>
     <div className='container'>
         <article className='articles' >
             <h2 className='h2_title'>See below the projects</h2>
@@ -30,6 +31,7 @@ export default function Projects() {
         </Card>
 
         <Card className='card_container'>
+        <Card.Img variant="top" src={project2Image} className='imageElement2'/>
           <Card.Body>
             <Card.Title>Project 2</Card.Title>
             <Card.Text>
@@ -52,9 +54,12 @@ export default function Projects() {
         
         </section>
         
+        
     </div>
 
     <Footer/>
-    </>
+
+    
+    </div>
   )
 }
