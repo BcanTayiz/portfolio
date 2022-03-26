@@ -1,0 +1,47 @@
+
+.project3Container{
+    text-align: center;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.table{
+    background-color: azure;
+    box-shadow: 3px 3px 4px 4px silver;
+}
+
+
+.upperSection{
+    margin: auto 30px;
+}
+
+.button{
+    margin: 15px 15px;
+    width: 200px;
+}
+
+.buyButtons{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.buyButtonContainer{
+    margin:10px;
+    padding:10px;
+}
+
+.sellButtons{
+    display: flex;
+    flex-direction: row;
+}
+
+.sellButtonContainer{
+    margin:10px;
+    padding:10px;
+}

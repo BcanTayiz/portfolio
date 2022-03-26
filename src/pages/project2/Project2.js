@@ -3,7 +3,6 @@ import Select from 'react-select'
 
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
-import Footer from '../../../components/Footer/Footer';
 
 
 

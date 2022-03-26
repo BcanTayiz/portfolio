@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 
 import project1Image from '../../assets/images/project1.png'
 import project2Image from '../../assets/images/project2.png'
+import project3Image from '../../assets/images/project3.png'
 
 import {Link} from 'react-router-dom'
 
@@ -42,12 +43,43 @@ export default function Projects() {
         </Card>
 
         <Card className='card_container'>
+        <Card.Img variant="top" src={project3Image} className='imageElement3'/>
           <Card.Body>
             <Card.Title>Project 3</Card.Title>
             <Card.Text>
-              Project 3, will be built soon
+              Basic Live Stock Simulation 
             </Card.Text>
             <Link to='/portfolio/project3'>Go to Project 3</Link>
+          </Card.Body>
+        </Card>
+
+        <Card className='card_container'>
+          <Card.Body>
+            <Card.Title>Project 4</Card.Title>
+            <Card.Text>
+              Project 4, will be built soon
+            </Card.Text>
+            <Link to='/portfolio/project4'>Go to Project 4</Link>
+          </Card.Body>
+        </Card>
+
+        <Card className='card_container'>
+          <Card.Body>
+            <Card.Title>Project 5</Card.Title>
+            <Card.Text>
+              Project 5, will be built soon
+            </Card.Text>
+            <Link to='/portfolio/project5'>Go to Project 5</Link>
+          </Card.Body>
+        </Card>
+
+        <Card className='card_container'>
+          <Card.Body>
+            <Card.Title>Project 6</Card.Title>
+            <Card.Text>
+              Project 6, will be built soon
+            </Card.Text>
+            <Link to='/portfolio/project6'>Go to Project 6</Link>
           </Card.Body>
         </Card>
 
