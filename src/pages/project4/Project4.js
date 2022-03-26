@@ -21,8 +21,8 @@ export default function Project4() {
     <div className='container'>
         
         <section>
-            <h1>Project 4 will come here</h1>
-            {/*<Slider className="slider"
+            <h1>Project 4 is coming soon</h1>
+            <Slider className="slider"
                 getAriaLabel={() => 'Temperature range'}
                 max={10}
                 min={1}
@@ -30,7 +30,7 @@ export default function Project4() {
                 onChange={handleChange}
                 valueLabelDisplay="auto"
                 getAriaValueText={value2}
-            />*/}
+            />
         </section>
         
     </div>
