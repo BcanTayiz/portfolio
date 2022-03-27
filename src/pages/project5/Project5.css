@@ -4,9 +4,31 @@
     justify-content: center;
     text-align: center;
     margin: auto;
+    box-shadow: 3px 0px 10px black;
+    width: 70%;
+    margin-top: 3rem;
+    border-radius: 3em;
 }
 
 .header{
     text-align: center;
     align-items: center;
+}
+
+.numberSet{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.numContainer{
+    margin: 5px;
+    padding: 5px;
+}
+
+.button{
+    margin: 5px;
+    padding: 5px;
 }
