@@ -13,7 +13,7 @@ export default function Project4() {
   const [random4,setRandom4] = useState(Math.floor(Math.random() * 100))
   const [random5,setRandom5] = useState(Math.floor(Math.random() * 100))
 
-  const [timeValue,setTimeValue] = useState(15)
+  const [timeValue,setTimeValue] = useState(30)
 
   const [life,setLife] = useState(3)
 
@@ -78,12 +78,11 @@ export default function Project4() {
       if(outlier === random1){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
-        setTimeValue(timeValue => timeValue + 10)
         
       }else{
         setMessage('Outlier is incorrect')
         setLife(life => life - 1)
-        setTimeValue(timeValue => timeValue + 10)
+        setTimeValue(timeValue => timeValue + 15)
       }
   
       setRandom1(Math.floor(Math.random() * 100))
@@ -103,13 +102,12 @@ export default function Project4() {
       if(outlier === random2){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
-        setTimeValue(timeValue => timeValue + 10)
        
       }else{
         setMessage('Outlier is incorrect')
         
         setLife(life => life - 1)
-        setTimeValue(timeValue => timeValue + 10)
+        setTimeValue(timeValue => timeValue + 15)
       }
   
       setRandom1(Math.floor(Math.random() * 100))
@@ -130,11 +128,11 @@ export default function Project4() {
       if(outlier === random3){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
-        setTimeValue(timeValue => timeValue + 10)
+        
       }else{
         setMessage('Outlier is incorrect')
         setLife(life => life - 1)
-        setTimeValue(timeValue => timeValue + 10)
+        setTimeValue(timeValue => timeValue + 15)
       }
   
       setRandom1(Math.floor(Math.random() * 100))
@@ -155,11 +153,11 @@ export default function Project4() {
       if(outlier === random4){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
-        setTimeValue(timeValue => timeValue + 10)
+        
       }else{
         setMessage('Outlier is incorrect')
         setLife(life => life - 1)
-        setTimeValue(timeValue => timeValue + 10)
+        setTimeValue(timeValue => timeValue + 15)
       }
   
       setRandom1(Math.floor(Math.random() * 100))
@@ -179,11 +177,11 @@ export default function Project4() {
       if(outlier === random5){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
-        setTimeValue(timeValue => timeValue + 10)
+        
       }else{
         setMessage('Outlier is incorrect')
         setLife(life => life - 1)
-        setTimeValue(timeValue => timeValue + 10)
+        setTimeValue(timeValue => timeValue + 15)
       }
       setRandom1(Math.floor(Math.random() * 100))
       setRandom2(Math.floor(Math.random() * 100))
