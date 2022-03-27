@@ -3,6 +3,7 @@ import React,{useState} from 'react'
 import Slider from '@mui/material/Slider';
 
 import './Project4.css'
+import { set } from 'lodash';
 
 export default function Project4() {
 
@@ -70,7 +71,11 @@ export default function Project4() {
   }
 
   const restartGame = () => {
-    window.location.reload()
+    setMessage('Game is over, Page is going to be restarted')
+    setTimeout(() => {
+      window.location.reload()
+    }, 2000);
+    
   }
 
 
