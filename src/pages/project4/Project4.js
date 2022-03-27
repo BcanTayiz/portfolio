@@ -16,6 +16,7 @@ export default function Project4() {
 
   const [timeValue,setTimeValue] = useState(30)
   const [gameStart,setGameStart] = useState(false)
+  const [startGameCount,setStartGameCount] = useState(0)
 
   const [life,setLife] = useState(3)
 
@@ -43,7 +44,9 @@ export default function Project4() {
   const startGame = () => {
 
     setGameStart(true)
-    if(life < 0){
+    setStartGameCount(prev=> prev + 1)
+
+    if(life < 0 ){
       setMessage("Game Over")
       setTimeout(() => {
         setMessage("Press Start to Play Again")
@@ -56,17 +59,20 @@ export default function Project4() {
       setRandom4(Math.floor(Math.random() * 100))
       setRandom5(Math.floor(Math.random() * 100))
     }else{
+      
+    }
+    if(startGameCount <= 1){
+      let time = setInterval(() => {
+        if(timeValue <= 0){
+          clearInterval(time)
+          setLife(life => life - 1)
+          setMessage("Game Over")
+        }
+        setTimeValue(timeValue => timeValue - 1)
+      },1000)
 
     }
-
-    let time = setInterval(() => {
-      if(timeValue <= 0){
-        clearInterval(time)
-        setLife(life => life - 1)
-        setMessage("Game Over")
-      }
-      setTimeValue(timeValue => timeValue - 1)
-    },1000)
+    
    
   }
 
