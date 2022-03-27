@@ -135,7 +135,7 @@ export default function Project4() {
        
       }
   
-      setRandom1(Math.floor(Math.random() * 100))
+        setRandom1(Math.floor(Math.random() * 100))
         setRandom2(Math.floor(Math.random() * 100))
         setRandom3(Math.floor(Math.random() * 100))
         setRandom4(Math.floor(Math.random() * 100))
