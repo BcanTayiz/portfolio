@@ -18,6 +18,8 @@ export default function Project4() {
   const [gameStart,setGameStart] = useState(false)
   const [startGameCount,setStartGameCount] = useState(0)
 
+  const [timeinterval,setTimeinterval] = useState(null)
+
   const [life,setLife] = useState(3)
 
   const [message,setMessage] = useState("")
@@ -62,6 +64,7 @@ export default function Project4() {
       
     }
     if(startGameCount <= 1){
+      setStartGameCount(prev=> prev + 1)
       let time = setInterval(() => {
         if(timeValue <= 0){
           clearInterval(time)
@@ -71,6 +74,8 @@ export default function Project4() {
         setTimeValue(timeValue => timeValue - 1)
       },1000)
 
+      setTimeinterval(time)
+
     }
     
    
@@ -79,6 +84,16 @@ export default function Project4() {
   const restartGame = () => {
     setMessage('Game is over, Page is going to be restarted')
     setTimeout(() => {
+      setLife(3)
+      setRound(1)
+      setRandom1(Math.floor(Math.random() * 100))
+      setRandom2(Math.floor(Math.random() * 100))
+      setRandom3(Math.floor(Math.random() * 100))
+      setRandom4(Math.floor(Math.random() * 100))
+      setRandom5(Math.floor(Math.random() * 100))
+      setGameStart(true)
+      setTimeinterval(prev => clearInterval(prev))
+      setMessage('Game started')
       window.location.reload()
     }, 2000);
     
@@ -86,6 +101,7 @@ export default function Project4() {
 
 
   const handleOutlier1 = () => {
+    if(life === 0 || timeValue === 0) restartGame()
     let newArray = [random1,random2,random3,random4,random5]
     let outlier = findOutlier(newArray)
     if(life > 0 && timeValue > 0 && gameStart){
@@ -110,6 +126,7 @@ export default function Project4() {
   }
 
   const handleOutlier2 = () => {
+    if(life === 0 || timeValue === 0) restartGame()
     let newArray = [random1,random2,random3,random4,random5]
     let outlier = findOutlier(newArray)
     if(life > 0 && timeValue > 0 && gameStart){
@@ -136,6 +153,7 @@ export default function Project4() {
 
 
   const handleOutlier3 = () => {
+    if(life === 0 || timeValue === 0) restartGame()
     let newArray = [random1,random2,random3,random4,random5]
     let outlier = findOutlier(newArray)
     if(life > 0 && timeValue > 0 && gameStart){
@@ -161,6 +179,7 @@ export default function Project4() {
 
 
   const handleOutlier4 = () => {
+    if(life === 0 || timeValue === 0) restartGame()
     let newArray = [random1,random2,random3,random4,random5]
     let outlier = findOutlier(newArray)
     if(life > 0 && timeValue > 0 && gameStart){
@@ -185,6 +204,7 @@ export default function Project4() {
   }
 
   const handleOutlier5 = () => {
+    if(life === 0 || timeValue === 0) restartGame()
     let newArray = [random1,random2,random3,random4,random5]
     let outlier = findOutlier(newArray)
     if(life > 0 && timeValue > 0 && gameStart){
@@ -223,7 +243,7 @@ export default function Project4() {
             <h3>{message}</h3>
             <br/>
             <h4>round time: {timeValue >= 0 ? timeValue : 'Game is Over'} </h4>
-            {life === 0 || timeValue < 0 ? restartGame() : null}
+            
             <button onClick={startGame}>Start the Game</button>
         </section>
 
