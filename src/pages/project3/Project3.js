@@ -174,8 +174,8 @@ export default function Project3() {
         <div className='table'>
           <h4>Financial Value: {Math.round(financial,2)}$</h4>
           <br/>
-          <h5 style={{color:'green'}}>Buy Price:{buyPrice}</h5>
-          <h5 style={{color:'coral'}}>Sell Price:{sellPrice}</h5>
+          <h5 style={{color:'green'}}>Buy Price:{Math.round(buyPrice,2)}</h5>
+          <h5 style={{color:'coral'}}>Sell Price:{Math.round(sellPrice,2) }</h5>
           <br/>
           <h5 style={{color:'red'}}>Current Stock Price: {yvalues[yvalues.length - 1] && Math.round(yvalues[yvalues.length - 1],2)}</h5>
         </div>
