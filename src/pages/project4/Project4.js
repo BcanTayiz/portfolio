@@ -78,6 +78,7 @@ export default function Project4() {
       if(outlier === random1){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
+        setTimeValue(timeValue => timeValue + 10)
         
       }else{
         setMessage('Outlier is incorrect')
@@ -102,6 +103,7 @@ export default function Project4() {
       if(outlier === random2){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
+        setTimeValue(timeValue => timeValue + 10)
        
       }else{
         setMessage('Outlier is incorrect')
@@ -128,7 +130,7 @@ export default function Project4() {
       if(outlier === random3){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
-        
+        setTimeValue(timeValue => timeValue + 10)
       }else{
         setMessage('Outlier is incorrect')
         setLife(life => life - 1)
@@ -153,7 +155,7 @@ export default function Project4() {
       if(outlier === random4){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
-        
+        setTimeValue(timeValue => timeValue + 10)
       }else{
         setMessage('Outlier is incorrect')
         setLife(life => life - 1)
@@ -177,7 +179,7 @@ export default function Project4() {
       if(outlier === random5){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
-        
+        setTimeValue(timeValue => timeValue + 10)
       }else{
         setMessage('Outlier is incorrect')
         setLife(life => life - 1)
