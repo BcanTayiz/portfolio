@@ -14,6 +14,7 @@ export default function Project4() {
   const [random5,setRandom5] = useState(Math.floor(Math.random() * 100))
 
   const [timeValue,setTimeValue] = useState(30)
+  const [gameStart,setGameStart] = useState(false)
 
   const [life,setLife] = useState(3)
 
@@ -39,6 +40,8 @@ export default function Project4() {
 
 
   const startGame = () => {
+
+    setGameStart(true)
     if(life < 0){
       setMessage("Game Over")
       setTimeout(() => {
@@ -74,7 +77,7 @@ export default function Project4() {
   const handleOutlier1 = () => {
     let newArray = [random1,random2,random3,random4,random5]
     let outlier = findOutlier(newArray)
-    if(life > 0 && timeValue > 0){
+    if(life > 0 && timeValue > 0 && gameStart){
       if(outlier === random1){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
@@ -98,7 +101,7 @@ export default function Project4() {
   const handleOutlier2 = () => {
     let newArray = [random1,random2,random3,random4,random5]
     let outlier = findOutlier(newArray)
-    if(life > 0 && timeValue > 0){
+    if(life > 0 && timeValue > 0 && gameStart){
       if(outlier === random2){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
@@ -124,7 +127,7 @@ export default function Project4() {
   const handleOutlier3 = () => {
     let newArray = [random1,random2,random3,random4,random5]
     let outlier = findOutlier(newArray)
-    if(life > 0 && timeValue > 0){
+    if(life > 0 && timeValue > 0 && gameStart){
       if(outlier === random3){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
@@ -149,7 +152,7 @@ export default function Project4() {
   const handleOutlier4 = () => {
     let newArray = [random1,random2,random3,random4,random5]
     let outlier = findOutlier(newArray)
-    if(life > 0 && timeValue > 0){
+    if(life > 0 && timeValue > 0 && gameStart){
       if(outlier === random4){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
@@ -173,7 +176,7 @@ export default function Project4() {
   const handleOutlier5 = () => {
     let newArray = [random1,random2,random3,random4,random5]
     let outlier = findOutlier(newArray)
-    if(life > 0 && timeValue > 0){
+    if(life > 0 && timeValue > 0 && gameStart){
       if(outlier === random5){
         setMessage('Outlier is correct')
         setRound(round => round + 1)
