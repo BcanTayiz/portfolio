@@ -71,7 +71,7 @@ export default function Projects() {
           <Card.Body>
             <Card.Title>Project 5</Card.Title>
             <Card.Text>
-              Project 5, will be built soon
+              Sequence Prediction Game
             </Card.Text>
             <Link to='/portfolio/project5'>Go to Project 5</Link>
           </Card.Body>
