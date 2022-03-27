@@ -32,7 +32,8 @@ export default function App() {
         <Navigation/>
 
         <Routes>
-            <Route exact path="/portfolio/" element={<Home />}/>
+            <Route  path="/" element={<Home />}/> 
+            <Route exact path="/portfolio" element={<Home />}/>
             <Route  path="/portfolio/about" element={<About />}/>
             <Route  path="/portfolio/projects" element={<Projects />}/>
             <Route  path="/portfolio/contact" element={<Contact />}/>
