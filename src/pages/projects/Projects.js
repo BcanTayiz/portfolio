@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card';
 import project1Image from '../../assets/images/project1.png'
 import project2Image from '../../assets/images/project2.png'
 import project3Image from '../../assets/images/project3.png'
+import project4Image from '../../assets/images/project4.png'
 
 import {Link} from 'react-router-dom'
 
@@ -54,10 +55,11 @@ export default function Projects() {
         </Card>
 
         <Card className='card_container'>
+        <Card.Img variant="top" src={project4Image} className='imageElement3'/>
           <Card.Body>
             <Card.Title>Project 4</Card.Title>
             <Card.Text>
-              Project 4, will be built soon
+              Find the Outlier number game
             </Card.Text>
             <Link to='/portfolio/project4'>Go to Project 4</Link>
           </Card.Body>

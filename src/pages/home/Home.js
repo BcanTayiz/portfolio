@@ -7,7 +7,7 @@ import './Home.css'
 export default function Home() {
   return (
     <>
-    <div className='container'>
+    <div className='homeContainer'>
 
 
       <div className='section_Parts'>

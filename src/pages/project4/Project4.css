@@ -1,0 +1,28 @@
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerContainer h1{
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.buttonContainer button{
+    margin: 10px;
+    padding: 10px;
+    background-color: cadetblue;
+    border: 2px solid azure;
+
+}
