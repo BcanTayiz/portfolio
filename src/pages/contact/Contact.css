@@ -4,6 +4,15 @@
   margin: 10rem 10rem;
   align-items: center;
   justify-content: center;
+  font-size: 2vw;
+}
+
+form h2{
+  font-size: 2.2vw;
+}
+
+form p, form label{
+  font-size: 1.7vw;
 }
 
 

@@ -3,6 +3,7 @@ import React from 'react'
 import './About.css'
 import Footer from '../../components/Footer/Footer'
 import { BsFillCircleFill } from "react-icons/bs";
+import Container from 'react-bootstrap/Container';
 
 export default function About() {
   return (

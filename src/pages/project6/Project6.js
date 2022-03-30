@@ -1,15 +1,15 @@
 import React from 'react'
 
-import Carousel from 'react-bootstrap/Carousel';
+import Container from 'react-bootstrap/Container';
 
 export default function Project6() {
 
 
 
   return (
-    <div>
-      
-    </div>
+    <Container>
+      <h2>Project 6 is coming soon</h2>
+    </Container>
 
     
   )

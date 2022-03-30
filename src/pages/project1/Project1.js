@@ -47,7 +47,7 @@ export default function Project1() {
 
   const getSelectedItems = () => {
       if(pickedMeaning !== '' && pickedword !== ''){
-        if(whiteList.length >=8){
+        if(whiteList.length >= 8){
           setMessage(true)
           
            

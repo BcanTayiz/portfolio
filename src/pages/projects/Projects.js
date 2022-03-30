@@ -25,8 +25,8 @@ export default function Projects() {
         <Card className='card_container'>
         <Card.Img variant="top" src={project1Image} className='imageElement'/>
           <Card.Body>
-            <Card.Title>Project 1</Card.Title>
-            <Card.Text>
+            <Card.Title className='cardTitle'>Project 1</Card.Title>
+            <Card.Text className='cardText'>
               Word Meaning Matching game
             </Card.Text>
             <Link to='/portfolio/project1'>Go to Project 1</Link>
@@ -36,8 +36,8 @@ export default function Projects() {
         <Card className='card_container'>
         <Card.Img variant="top" src={project2Image} className='imageElement2'/>
           <Card.Body>
-            <Card.Title>Project 2</Card.Title>
-            <Card.Text>
+            <Card.Title className='cardTitle'>Project 2</Card.Title>
+            <Card.Text className='cardText'>
               Alphabet Wars Game
             </Card.Text>
             <Link to='/portfolio/project2'>Go to Project 2</Link>
@@ -47,8 +47,8 @@ export default function Projects() {
         <Card className='card_container'>
         <Card.Img variant="top" src={project3Image} className='imageElement3'/>
           <Card.Body>
-            <Card.Title>Project 3</Card.Title>
-            <Card.Text>
+            <Card.Title className='cardTitle'>Project 3</Card.Title>
+            <Card.Text className='cardText'>
               Basic Live Stock Simulation 
             </Card.Text>
             <Link to='/portfolio/project3'>Go to Project 3</Link>
@@ -58,8 +58,8 @@ export default function Projects() {
         <Card className='card_container'>
         <Card.Img variant="top" src={project4Image} className='imageElement3'/>
           <Card.Body>
-            <Card.Title>Project 4</Card.Title>
-            <Card.Text>
+            <Card.Title className='cardTitle'>Project 4</Card.Title>
+            <Card.Text className='cardText'>
               Find the Outlier number game
             </Card.Text>
             <Link to='/portfolio/project4'>Go to Project 4</Link>
@@ -69,8 +69,8 @@ export default function Projects() {
         <Card className='card_container'>
         <Card.Img variant="top" src={project5Image} className='imageElement3'/>
           <Card.Body>
-            <Card.Title>Project 5</Card.Title>
-            <Card.Text>
+            <Card.Title className='cardTitle'>Project 5</Card.Title>
+            <Card.Text className='cardText'>
               Sequence Prediction Game
             </Card.Text>
             <Link to='/portfolio/project5'>Go to Project 5</Link>
@@ -79,8 +79,8 @@ export default function Projects() {
 
         <Card className='card_container'>
           <Card.Body>
-            <Card.Title>Project 6</Card.Title>
-            <Card.Text>
+            <Card.Title className='cardTitle'>Project 6</Card.Title>
+            <Card.Text className='cardText'>
               Project 6, will be built soon
             </Card.Text>
             <Link to='/portfolio/project6'>Go to Project 6</Link>

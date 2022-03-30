@@ -9,6 +9,14 @@
 
 }
 
+.cardTitle{
+  font-size: 0.8vw;
+}
+
+.cardText{
+  font-size: 0.7vw;
+}
+
 
 .h2_title{
   text-align: center;
