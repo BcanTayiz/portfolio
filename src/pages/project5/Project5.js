@@ -150,9 +150,9 @@ export default function Project5() {
       </section>
 
       <section >
-          <button className='button'  onClick={() => handleOption(option1,1)}>{option1}</button>
-          <button className='button' onClick={() => handleOption(option1,2)}>{option2}</button>
-          <button className='button' onClick={() => handleOption(option1,3)}>{option3}</button>
+          <button className='buttonProject5'  onClick={() => handleOption(option1,1)}>{option1}</button>
+          <button className='buttonProject5' onClick={() => handleOption(option1,2)}>{option2}</button>
+          <button className='buttonProject5' onClick={() => handleOption(option1,3)}>{option3}</button>
       </section>
     </div>
   )
