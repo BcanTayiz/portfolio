@@ -22,7 +22,8 @@
 
 .button{
     margin: 15px 15px;
-    width: 200px;
+    height: 5vh;
+    width: 12vw;
 }
 
 .buyButtons{
@@ -30,10 +31,20 @@
     flex-direction: row;
 }
 
+.plotElement{
+    height: 20vh;
+    width: 20vw;
+}
+
 
 .buyButtonContainer{
     margin:10px;
     padding:10px;
+}
+
+.bottomSection{
+    width: 30vw;
+    height: 20vh;
 }
 
 .sellButtons{

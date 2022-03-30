@@ -5,6 +5,9 @@ import Plot from 'react-plotly.js';
 
 import './Project3.css'
 
+window.height = window.innerHeight
+window.width = window.innerWidth
+
 
 const block = () => {
   
@@ -234,7 +237,7 @@ export default function Project3() {
           },
           {type: 'line', x: xvalues, y: yvalues},
         ]}
-        layout={ {width: 500, height: 300, title: 'Stock XRA '} }
+        layout={ {width: '60%', height: '40%', title: 'Stock XRA '} }
       />
 
     </section>
