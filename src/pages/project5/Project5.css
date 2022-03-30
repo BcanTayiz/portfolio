@@ -28,7 +28,23 @@
     padding: 5px;
 }
 
-.button{
+.buttonProject5{
     margin: 5px;
     padding: 5px;
+    width: 5vw;
+    height: 3vw;
+    border-radius: 10px;
+    background-color: rgb(200, 202, 86);
+}
+
+.buttonProject5:active{
+    background-color: #da4242;
+}
+
+.buttonProject5::before{
+background-color: aquamarine;
+}
+
+.buttonProject5::after{
+    background-color: #2919fd;
 }
