@@ -10,7 +10,7 @@ function shuffle(array) {
   let currentIndex = array.length,  randomIndex;
 
   // While there remain elements to shuffle...
-  while (currentIndex != 0) {
+  while (currentIndex !== 0) {
 
     // Pick a remaining element...
     randomIndex = Math.floor(Math.random() * currentIndex);
@@ -34,13 +34,8 @@ export default function Project1() {
 
   const [whiteList,setWhiteList] = useState([])
 
-  const [suggestedWord,setSuggestedWord] = useState('')
   const [suggestedMeaning,setSuggestedMeaning] = useState('')
 
-  const [colorWord,setColorWord] = useState('')
-  const [colorMeaning,setColorMeaning] = useState('')
-
-  const [round,setRound] = useState(1)
   const [message,setMessage] = useState(false)
 
   const [score, setScore] = useState(0)
@@ -97,13 +92,10 @@ export default function Project1() {
   const handleWordPick = (word,meaning) => {
     setPickedWord(word)
     setSuggestedMeaning(meaning)
-    setColorWord('red')
   }
 
   const handleTheMEaning = (meaning,word) => {
     setPickedMeaning(meaning)
-    setSuggestedWord(word)
-    setColorMeaning('green')
   }
 
 
@@ -174,7 +166,7 @@ export default function Project1() {
       <div className='trialOnes'>
       {whiteList.map((el,index) => (
           <div key={el}> 
-            <p className='triedElement'>{index % 2 == 0 ? 'tried word ==> '+`${el}` : 'tried meaning ==> ' + `${el}` }</p>
+            <p className='triedElement'>{index % 2 === 0 ? `tried word ==>  ${el}` : `tried meaning ==>  ${el}` }</p>
           </div>
         )) }
 

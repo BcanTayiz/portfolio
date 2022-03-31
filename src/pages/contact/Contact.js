@@ -1,6 +1,5 @@
 import React,{useState} from 'react'
 
-import Footer from '../../components/Footer/Footer'
 
 import emailjs  from '@emailjs/browser';
 

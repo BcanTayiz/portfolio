@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Footer from '../../components/Footer/Footer'
-
 import './Home.css'
 
 export default function Home() {
@@ -18,7 +16,7 @@ export default function Home() {
               <li  className='text'><span>About:</span> This page is about myself and my story</li>
               <li  className='text'><span>Contact:</span> For freelance and other services contact me from here.</li>
             </ul>
-            <img className='profil_photo'   src="https://res.cloudinary.com/jerrick/image/upload/v1592662535/5eee1a075cd2e3001c4803ed.jpg" />
+            <img className='profil_photo' alt="Barış Can Tayiz profil picture"  src="https://res.cloudinary.com/jerrick/image/upload/v1592662535/5eee1a075cd2e3001c4803ed.jpg" />
         </section>
 
       </div>

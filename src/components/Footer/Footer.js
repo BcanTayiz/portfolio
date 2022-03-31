@@ -21,8 +21,8 @@ export default function Footer() {
         <br className='block'/>
           <nav className='other_Navbar'>
             <h5>Social Media Links</h5>
-            <a href="https://github.com/BcanTayiz"  target="_blank" className='el'><GoMarkGithub/></a>
-            <a href="https://www.linkedin.com/in/bar%C4%B1%C5%9F-can-tayiz-8523bb58" target="_blank" className='el'><BsLinkedin/></a>
+            <a href="https://github.com/BcanTayiz"  target="_blank" rel="noreferrer"  className='el'><GoMarkGithub/></a>
+            <a href="https://www.linkedin.com/in/bar%C4%B1%C5%9F-can-tayiz-8523bb58"  rel="noreferrer" target="_blank" className='el'><BsLinkedin/></a>
           </nav>
         </section>
         <section className='origin'>

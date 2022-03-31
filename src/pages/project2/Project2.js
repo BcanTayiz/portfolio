@@ -14,7 +14,7 @@ function shuffle(array) {
   let currentIndex = array.length,  randomIndex;
 
   // While there remain elements to shuffle...
-  while (currentIndex != 0) {
+  while (currentIndex !== 0) {
 
     // Pick a remaining element...
     randomIndex = Math.floor(Math.random() * currentIndex);
@@ -80,10 +80,8 @@ export default function Project2() {
       {
 
       let playerwon = 0
-      let computerWon = 0
       let tie = 0
 
-      let rnd
 
       let list = [
         {'name':'A','score':score1},
@@ -133,8 +131,7 @@ export default function Project2() {
             
         }else if(playerList[i]['score'] === computerList[i]['score']){
           if(i === 0){
-            let cond = true
-            Math.random() > 0.5 ? setScore1(score => score + 1) : cond = false
+            Math.random() > 0.5 ? setScore1(score => score + 1) : setScore1(score => score)
             for(let j=0;j<computerList.length;j++){
               if(selected1 === computerList[i]['name'])
               {
@@ -164,8 +161,7 @@ export default function Project2() {
             }
           }
           if(i === 1){
-            let cond = true
-            Math.random() > 0.5 ? setScore2(score => score + 1) : cond = false
+            Math.random() > 0.5 ? setScore2(score => score + 1) : setScore1(score => score)
             for(let j=0;j<computerList.length;j++){
               if(selected1 === computerList[i]['name'])
               {
@@ -196,8 +192,7 @@ export default function Project2() {
           }
 
           if(i === 2){
-            let cond = true
-            Math.random() > 0.5 ? setScore3(score => score + 1) : cond = false
+            Math.random() > 0.5 ? setScore3(score => score + 1) : setScore1(score => score)
             for(let j=0;j<computerList.length;j++){
               if(selected1 === computerList[i]['name'])
               {
@@ -230,8 +225,7 @@ export default function Project2() {
 
 
           if(i === 3){
-            let cond = true
-            Math.random() > 0.5 ? setScore4(score => score + 1) : cond = false
+            Math.random() > 0.5 ? setScore4(score => score + 1) : setScore1(score => score)
             for(let j=0;j<computerList.length;j++){
               if(selected1 === computerList[i]['name'])
               {
@@ -263,8 +257,7 @@ export default function Project2() {
 
 
           if(i === 4){
-            let cond = true
-            Math.random() > 0.5 ? setScore5(score => score + 1) : cond = false
+            Math.random() > 0.5 ? setScore5(score => score + 1) : setScore1(score => score)
             for(let j=0;j<computerList.length;j++){
               if(selected1 === computerList[i]['name'])
               {
@@ -309,7 +302,7 @@ export default function Project2() {
         
 
         console.log(playerwon,tie/5)
-        if(playerwon + tie/5 >= 3){{
+        if(playerwon + tie/5 >= 3){
           setWinMessage('Player Won')
           setPlayerScore(score => score += 1)
           if(playerScore + computerScore >= 30 && playerScore >= computerScore){
@@ -321,7 +314,7 @@ export default function Project2() {
             }, 7000);
           }
           
-        }}else{
+        }else{
           setWinMessage('Computer Won')
           setComputerScore(score => score += 1)
           if(playerScore + computerScore >= 30 && computerScore > playerScore){
