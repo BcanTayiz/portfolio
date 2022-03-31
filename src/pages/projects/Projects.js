@@ -95,7 +95,7 @@ export default function Projects() {
           <Card.Body>
             <Card.Title className='cardTitle'>Project 7</Card.Title>
             <Card.Text className='cardText'>
-              Project 7 will be available soon
+              Get Random Activity
             </Card.Text>
             <Link to='/portfolio/project7'>Go to Project 7</Link>
           </Card.Body>
