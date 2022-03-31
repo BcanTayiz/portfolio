@@ -10,6 +10,7 @@ import project4Image from '../../assets/images/project4.png'
 import project5Image from '../../assets/images/project5.png'
 import project6Image from '../../assets/images/project6.png'
 import project7Image from '../../assets/images/project7.png'
+import project8Image from '../../assets/images/project8.png'
 
 import {Link} from 'react-router-dom'
 
@@ -102,10 +103,11 @@ export default function Projects() {
         </Card>
 
         <Card className='card_container'>
+        <Card.Img variant="top" src={project8Image} className='imageElement3'/>
           <Card.Body>
             <Card.Title className='cardTitle'>Project 8</Card.Title>
             <Card.Text className='cardText'>
-            Project 8 will be available soon
+            Translate English Text into Handsign
             </Card.Text>
             <Link to='/portfolio/project8'>Go to Project 8</Link>
           </Card.Body>

@@ -21,6 +21,8 @@ import Project4 from './pages/project4/Project4';
 import Project5 from './pages/project5/Project5';
 import Project6 from './pages/project6/Project6';
 import Project7 from './pages/project7/Project7';
+import Project8 from './pages/project8/Project8';
+import Project9 from  './pages/project9/Project9';
 
 import Footer from './components/Footer/Footer'
 
@@ -44,6 +46,8 @@ export default function App() {
             <Route  path="/portfolio/project5" element={<Project5 />}/>
             <Route  path="/portfolio/project6" element={<Project6 />}/>
             <Route  path="/portfolio/project7" element={<Project7 />}/>
+            <Route  path="/portfolio/project8" element={<Project8 />}/>
+            <Route  path="/portfolio/project9" element={<Project9 />}/>
         </Routes>
 
         <Footer/>
