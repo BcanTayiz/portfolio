@@ -1,0 +1,47 @@
+
+
+.activityContainer{
+    align-items: center;
+    margin: 3em auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ece766;
+    width: 50vw;
+    border-radius: 3em;
+    padding: 2em;
+}
+
+.activityAside{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#6697ec
+}
+
+h1{
+    text-align: center;
+    margin: auto 2em;
+}
+
+h4{
+    color: aliceblue;
+    text-shadow: 2px 2px 2px  #3d3c18;
+}
+
+.h4Container{
+    border:2px solid #6697ec;
+    border-radius: 2em;
+    margin:2em;
+}
+
+
+button{
+    background-color: #00bcd4;
+    border-radius: 2em;
+    padding: 1rem;
+}
