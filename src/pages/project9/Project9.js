@@ -40,13 +40,13 @@ export default function Project9() {
       searchText.length > 0 ? setLoading(false) : setLoading(true)
       
     }else{
-      if(category.length > 0)
-      {
+      if(selectCategory !== ''){
         newProducts = baseProducts.filter(product => {
           return product.category.toLowerCase() === selectCategory.toLowerCase()
         })
         
-      }else{
+      }else if(selectCategory === ''){
+        console.log(selectCategory,text)
         newProducts = baseProducts
       }
 
@@ -56,6 +56,7 @@ export default function Project9() {
     }
 
     setProducts(newProducts)
+    setSelectCategory('')
    
   }
 
