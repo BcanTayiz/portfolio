@@ -121,7 +121,7 @@ export default function Projects() {
             <Card.Text className='cardText'>
             Fake E-commerce Application
             </Card.Text>
-            <Link to='/portfolio/project8'>Go to Project 9</Link>
+            <Link to='/portfolio/project9'>Go to Project 9</Link>
           </Card.Body>
         </Card>
 
