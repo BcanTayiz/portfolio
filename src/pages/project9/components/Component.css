@@ -1,0 +1,42 @@
+
+
+.search_Container{
+    background-color: blueviolet;
+    width: 30rem;
+    height: 5rem;
+    margin: auto;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2em;
+    
+}
+
+.search_Container input{
+    width: 23rem;
+}
+
+
+.EcommerceContainer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+header{
+    background-color: #f5f5f5;
+    box-shadow: 2px 3px 2px 3px salmon;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+header:hover{
+    box-shadow: 2px 3px 4px 4px rgb(74, 38, 34);
+    transition: box-shadow 0.5s ease;
+}
+

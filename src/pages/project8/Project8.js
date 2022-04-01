@@ -70,7 +70,7 @@ export default function Project8() {
       
 
       let visuals = text.toUpperCase().split('').map(letter => {
-        if (letter === ' ' || '!.?,;:-*=()/\\&%'.split('').includes(letter)) {
+        if (letter === ' ' || "!'.?,;:-\"><é*=()/\\&%+^".split('').includes(letter)) {
           return <div className='space'>||</div>
         }
         return (

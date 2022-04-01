@@ -13,6 +13,7 @@ import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
 
 import Navigation from './components/Navigation/Navigation'
+import Footer from './components/Footer/Footer';
 
 import Project1 from './pages/project1/Project1';
 import Project2 from './pages/project2/Project2';
@@ -23,8 +24,6 @@ import Project6 from './pages/project6/Project6';
 import Project7 from './pages/project7/Project7';
 import Project8 from './pages/project8/Project8';
 import Project9 from  './pages/project9/Project9';
-
-import Footer from './components/Footer/Footer'
 
 
 export default function App() {

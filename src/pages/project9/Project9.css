@@ -1,0 +1,85 @@
+
+.EcommerceContainer{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem auto;
+}
+
+header{
+    background-color: #f5f5f5;
+    box-shadow: 2px 3px 2px 3px salmon;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+header:hover{
+    box-shadow: 2px 3px 4px 4px rgb(74, 38, 34);
+    transition: box-shadow 0.5s ease;
+}
+
+.allProducts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3rem;
+    justify-content: center;
+}
+
+.categoryNav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 5px 2px rgb(74, 38, 34);
+    width: 60%;
+    border-radius: 3em;
+}
+
+.categoryContainer{
+    align-items: center; 
+    justify-content: center; 
+    margin: auto;
+    cursor: pointer;
+    
+}
+
+.categoryContainer p {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;  
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+}
+
+.categoryContainer p:hover{
+    border-color: blueviolet;
+    color:rgb(214, 162, 99)
+}
+
+.productCard{
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.searchBar{
+    background-color: blueviolet;
+    width: 30rem;
+    height: 5rem;
+    margin: auto;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.searchBar input{
+    width: 23rem;
+}
