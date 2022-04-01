@@ -40,10 +40,19 @@ export default function Project9() {
       searchText.length > 0 ? setLoading(false) : setLoading(true)
       
     }else{
-      newProducts = baseProducts.filter(product => {
-        return product.category.toLowerCase() === selectCategory.toLowerCase()
-      })
+      if(category.length > 0)
+      {
+        newProducts = baseProducts.filter(product => {
+          return product.category.toLowerCase() === selectCategory.toLowerCase()
+        })
+        
+      }else{
+        newProducts = baseProducts
+      }
+
       setLoading(false)
+      
+    
     }
 
     setProducts(newProducts)
