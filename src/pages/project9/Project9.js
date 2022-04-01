@@ -101,7 +101,7 @@ export default function Project9() {
 
       <section className='searchBar'> 
         <br/>
-        <input type="text" onChange={(e) => checkSearch(e.target.value)} />
+        <input type="text" placeholder="Search Items..." onChange={(e) => checkSearch(e.target.value)} />
       </section>
 
       <section className='products'>
