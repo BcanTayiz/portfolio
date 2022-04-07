@@ -1,0 +1,103 @@
+
+
+.emotion_Container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #9aa5eb;
+    width: 30em;
+}
+
+.emotion-add-list{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    border: 2px solid rgb(202, 190, 190);
+}
+
+.emotion-add-list-inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 30em;
+    border: 2px solid azure;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.element-emotion{
+    width: 6em;
+    text-align: center;
+    justify-content: center;
+    border: 2px solid coral;
+    border-radius: 20px;
+    margin: 2px;
+}
+
+.emotion_Container_item{
+    cursor: pointer;
+}
+
+
+.emotion_Container_item_text{
+    border: 2px solid azure;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 2em;
+    padding: 1em;
+    margin: 0.4em;
+}
+
+.emotionListMain{
+    background-color: #c8d68e;
+    padding: 1em;
+}
+.emotionListMain p {
+    border:2px solid azure;
+    border-radius: 3em;
+    box-shadow: 3px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.emotion_Container button{
+    height: 50x;
+    width: 100px;
+    color: black;
+    font-size: 20px;
+}
+
+.buttonList{
+    background-color: #9aebcc;
+    margin:20px;
+    border-radius: 2em;
+}
+
+/* memory page */
+
+.card_MainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containerMemory{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_container{
+    font-size: 25px;
+}
+
+.btn{
+    background-color: #9aa5eb;
+    margin: 10px;
+    border-top:5rem;
+    border-radius: 20em;
+}

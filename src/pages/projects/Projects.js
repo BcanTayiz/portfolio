@@ -12,6 +12,7 @@ import project6Image from '../../assets/images/project6.png'
 import project7Image from '../../assets/images/project7.png'
 import project8Image from '../../assets/images/project8.png'
 import project9Image from '../../assets/images/project9.png'
+import project10Image from '../../assets/images/project10.png'
 
 import {Link} from 'react-router-dom'
 
@@ -20,7 +21,7 @@ import './Projects.css'
 export default function Projects() {
   return (
     <div className='mainContainer'>
-    <div className='container'>
+    <div className='container_projects'>
         <article className='articles' >
             <h2 className='h2_title'>See below the projects</h2>
         </article>
@@ -122,6 +123,17 @@ export default function Projects() {
             Fake E-commerce Application
             </Card.Text>
             <Link to='/portfolio/project9'>Go to Project 9</Link>
+          </Card.Body>
+        </Card>
+
+        <Card className='card_container'>
+        <Card.Img variant="top" src={project10Image} className='imageElement3'/>
+          <Card.Body>
+            <Card.Title className='cardTitle'>Project 10</Card.Title>
+            <Card.Text className='cardText'>
+            Emotion Story
+            </Card.Text>
+            <Link to='/portfolio/project10'>Go to Project 10</Link>
           </Card.Body>
         </Card>
 
