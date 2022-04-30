@@ -25,6 +25,8 @@ import Project7 from './pages/project7/Project7';
 import Project8 from './pages/project8/Project8';
 import Project9 from  './pages/project9/Project9';
 import Project10 from './pages/project10/Project10';
+import Project11 from './pages/project11/Project11';
+import Project12 from './pages/project12/Project12';
 import MemoryPage from './pages/project10/MemoryPage';
 
 
@@ -50,7 +52,9 @@ export default function App() {
             <Route  path="/portfolio/project8" element={<Project8 />}/>
             <Route  path="/portfolio/project9" element={<Project9 />}/>
             <Route  path="/portfolio/project10" element={<Project10 />}/>
+            <Route  path="/portfolio/project11" element={<Project11 />}/>
             <Route  path="/portfolio/memoryPage" element={<MemoryPage />}/>
+            <Route path="/portfolio/project12"  element={<Project12 />}></Route>
         </Routes>
 
         <Footer/>

@@ -14,6 +14,8 @@ import project8Image from '../../assets/images/project8.png'
 import project9Image from '../../assets/images/project9.png'
 import project10Image from '../../assets/images/project10.png'
 
+import project12Image from '../../assets/images/project12.png'
+
 import {Link} from 'react-router-dom'
 
 import './Projects.css'
@@ -136,6 +138,30 @@ export default function Projects() {
             <Link to='/portfolio/project10'>Go to Project 10</Link>
           </Card.Body>
         </Card>
+
+        <Card className='card_container'>
+          <Card.Body>
+            <Card.Title className='cardTitle'>Project 11</Card.Title>
+            <Card.Text className='cardText'>
+            Block Game Puzzle
+            Coming soon
+            </Card.Text>
+            <Link to='/portfolio/project11'>Go to Project 11</Link>
+          </Card.Body>
+        </Card>
+
+        <Card className='card_container'>
+        <Card.Img variant="top" src={project12Image} className='imageElement3'/>
+          <Card.Body>
+            <Card.Title className='cardTitle'>Project 12</Card.Title>
+            <Card.Text className='cardText'>
+            Image Similarity
+            </Card.Text>
+            <Link to='/portfolio/project12'>Go to Project 12</Link>
+          </Card.Body>
+        </Card>
+
+        
 
         
         </section>
